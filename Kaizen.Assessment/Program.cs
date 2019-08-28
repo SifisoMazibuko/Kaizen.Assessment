@@ -16,7 +16,7 @@ namespace Kaizen.Assessment
             // the below class declarations looks like a 1st year student developed it
             // NOTE: this includes the class declarations as well
             // IMPROVE THE ARCHITECTURE 
-            Human human = new Human()
+            var human = new Human
             {
                 Name = "John",
                 Age = 35,
@@ -24,7 +24,7 @@ namespace Kaizen.Assessment
             };
             Console.WriteLine(human.GetDetails());
 
-            Dog dog = new Dog()
+            var dog = new Dog
             {
                 Name = "Walter",
                 Age = 7,
@@ -32,7 +32,7 @@ namespace Kaizen.Assessment
             };
             Console.WriteLine(dog.GetDetails());
 
-            Cat cat = new Cat()
+            var cat = new Cat
             {
                 Name = "Snowball",
                 Age = 35,
