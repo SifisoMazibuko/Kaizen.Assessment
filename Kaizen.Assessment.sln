@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.Assessment", "Kaizen.Assessment\Kaizen.Assessment.csproj", "{22FB9131-EEDA-4605-BB78-0FA05C9C8059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaizen.Assessment.UnitTest", "Kaizen.Assessment.UnitTest\Kaizen.Assessment.UnitTest.csproj", "{89BBBEB7-7023-44D6-98C2-9A024FEF355F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.kaizen-it.co.za/tfs/kaizen
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Kaizen.Assessment.UnitTest\\Kaizen.Assessment.UnitTest.csproj
+		SccProjectName1 = Kaizen.Assessment.UnitTest
+		SccLocalPath1 = Kaizen.Assessment.UnitTest
+		SccProjectUniqueName2 = Kaizen.Assessment\\Kaizen.Assessment.csproj
+		SccProjectName2 = Kaizen.Assessment
+		SccLocalPath2 = Kaizen.Assessment
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22FB9131-EEDA-4605-BB78-0FA05C9C8059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FB9131-EEDA-4605-BB78-0FA05C9C8059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FB9131-EEDA-4605-BB78-0FA05C9C8059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FB9131-EEDA-4605-BB78-0FA05C9C8059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BBBEB7-7023-44D6-98C2-9A024FEF355F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BBBEB7-7023-44D6-98C2-9A024FEF355F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BBBEB7-7023-44D6-98C2-9A024FEF355F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BBBEB7-7023-44D6-98C2-9A024FEF355F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
