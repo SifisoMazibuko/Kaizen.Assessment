@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using static System.Console;
 
 namespace Kaizen.Assessment
 {
     // *** NOTE ***
-    // ALL CHANGES MUST BE ACCOMPANIED BY COMMENTS 
     // PLEASE READ ALL COMMENTS / INSTRUCTIONS
     public static class Program
     {
@@ -22,7 +22,7 @@ namespace Kaizen.Assessment
                 Age = 35,
                 Gender = "M"
             };
-            Console.WriteLine(human.GetDetails());
+            WriteLine(human.GetDetails());
 
             var dog = new Dog
             {
@@ -30,7 +30,7 @@ namespace Kaizen.Assessment
                 Age = 7,
                 Food = "Epol"
             };
-            Console.WriteLine(dog.GetDetails());
+            WriteLine(dog.GetDetails());
 
             var cat = new Cat
             {
@@ -38,7 +38,7 @@ namespace Kaizen.Assessment
                 Age = 35,
                 Food = "Whiskers"
             };
-            Console.WriteLine(cat.GetDetails());
+            WriteLine(cat.GetDetails());
 
             //PerformanceTest();
 
@@ -49,7 +49,7 @@ namespace Kaizen.Assessment
             };
             // the following method must return the first event number - as suggested by it's name
             var firstValue = GetFirstEvenValue(numbers);
-            Console.WriteLine("First Number: " + firstValue);
+            WriteLine("First Number: " + firstValue);
 
             List<string> strings = new List<string>()
             {
@@ -57,7 +57,7 @@ namespace Kaizen.Assessment
             };
             // the following method must return the first name which contains an 'a'
             var strValue = GetSingleStringValue(strings);
-            Console.WriteLine("Single String: " + strValue);
+            WriteLine("Single String: " + strValue);
 
             #endregion
 
@@ -80,7 +80,7 @@ namespace Kaizen.Assessment
             //};
             //// the following method must return the first event number - as suggested by it's name
             //var firstValue = GetFirstEvenValue(numbers);
-            //Console.WriteLine("First Number: " + firstValue);
+            //WriteLine("First Number: " + firstValue);
 
             //List<string> strings = new List<string>()
             //{
@@ -88,7 +88,7 @@ namespace Kaizen.Assessment
             //};
             //// the following method must return the first name which contains an 'a'
             //var strValue = GetSingleStringValue(strings);
-            //Console.WriteLine("Single String: " + strValue);
+            //WriteLine("Single String: " + strValue);
 
             #endregion
 
@@ -107,7 +107,7 @@ namespace Kaizen.Assessment
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                WriteLine(ex.Message);
             }
 
             #endregion
@@ -139,9 +139,9 @@ namespace Kaizen.Assessment
             // UNCOMMENT THE FOLLOWING PIECE OF CODE - IT WILL CAUSE A COMPILER ERROR - BECAUSE YOU HAVE TO CREATE THE METHOD
 
             //string a = Program.GenericTester(walter => walter.GetDetails(), dog);
-            //Console.WriteLine("Result A: {0}", a);
+            //WriteLine("Result A: {0}", a);
             //int b = Program.GenericTester(snowball => snowball.Age, cat);
-            //Console.WriteLine("Result B: {0}", b);
+            //WriteLine("Result B: {0}", b);
 
             #endregion
 
@@ -156,7 +156,7 @@ namespace Kaizen.Assessment
             }
             catch (ArithmeticException e)
             {
-                Console.WriteLine("Implicitly specified:{0}{1}", Environment.NewLine, e.StackTrace);
+                WriteLine("Implicitly specified:{0}{1}", Environment.NewLine, e.StackTrace);
             }
 
             #endregion            
@@ -170,7 +170,7 @@ namespace Kaizen.Assessment
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                WriteLine(e.Message);
             }
 
             #endregion            
@@ -192,7 +192,7 @@ namespace Kaizen.Assessment
                 const string abc = "asduqwezxc";
                 foreach (var vowel in abc.SelectOnlyVowels())
                 {
-                    Console.WriteLine("{0}", vowel);
+                    WriteLine("{0}", vowel);
                 }
             */
             // < REQUIRED OUTPUT => a u e
@@ -229,8 +229,8 @@ namespace Kaizen.Assessment
 
             #endregion
 
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadLine();
+            WriteLine("Press any key to continue...");
+            ReadLine();
         }
 
         #region Assessment C Method
